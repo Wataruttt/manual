@@ -1,0 +1,38 @@
+site_name: Personal Manual
+site_url: https://Wataruttt.github.io/manual/
+site_description: 個人用開発ツール・AIマニュアル
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - ホーム: index.md
+  - AI:
+    - Claude: ai/claude.md
+  - ツール:
+    - Git: tools/git.md
+    - VS Code: tools/vscode.md
+    - Terminal: tools/terminal.md
+    - Docker: tools/docker.md
+    - Obsidian: tools/obsidian.md
